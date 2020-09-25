@@ -1,7 +1,7 @@
 ---
 title: 'OKCupid Part One: The Analysis'
 date: 2020-09-24 00:00:00
-description: Analyzing 2012 OKCupid data.
+description: Analyzing 2012 OKCupid data. The data is split by sexual orientation to get a better view of the health, income, and professional disparities faced by queer individuals.
 featured_image: '/images/projects/2020-09-24-okcupid-part-one/pride.jpg'
 ---
 
@@ -11,7 +11,7 @@ featured_image: '/images/projects/2020-09-24-okcupid-part-one/pride.jpg'
 
 As a millennial who spent a good portion of my 20's on [OKCupid](https://www.okcupid.com/home), I was very excited for the opportunity to analyze and manipulate a dataset containing nearly 60,000 OKCupid profiles as my machine learning capstone project. Because my academic background is in linguistics, I was interested to see if the way that we speak about ourselves, our relationships, and the world around us could be used to predict information like education level, sexuality, or even age. After some deliberation, I decided to break the data down by sexuality. After all, I and most queer people I know have our identities firmly rooted in our queerness, and for good reason: to date, we still experience [housing](https://williamsinstitute.law.ucla.edu/publications/lgbt-housing-discrimination-us/) discrimination. Although job discrimination was [ruled illegal by the Supreme Court this June](https://www.nytimes.com/2020/06/15/us/gay-transgender-workers-supreme-court.html), the existence of at-will employment still means that an employer can fire an LGBT+ employee for "not being a good fit," "dress code violations," or some other coded homo- and transphobic reason, something many of us have seen happen or even experienced firsthand. Our trans siblings are being [murdered](https://www.hrc.org/resources/violence-against-the-trans-and-gender-non-conforming-community-in-2020), [denied healthcare](https://transequality.org/HCRL-FAQ), [forced out of sports](https://www.aclu.org/blog/lgbt-rights/transgender-rights/banning-trans-girls-school-sports-neither-feminist-nor-legal), and [facing horrific treatment if incarcerated](https://transequality.org/issues/police-jails-prisons). Our queerness affects every facet of our lives.
 
-Before moving onto my machine learning model, which will be covered in Part Two of this project, I decided to visualize and analyze the data given to me. Very little of it surprised me, but I couldn't help but feel more and more despondent the further along I got in the data. To accompany the following analyses, I am including what I hope are actionable steps and program ideas to lessen the health and income disparities faced by queer individuals.
+Before moving onto my [machine learning model, which was covered in Part Two of this project](/project/okc-gaydar), I decided to visualize and analyze the data given to me. Very little of it surprised me, but I couldn't help but feel more and more despondent the further along I got in the data. To accompany the following analyses, I am including what I hope are actionable steps and program ideas to lessen the health and income disparities faced by queer individuals.
 
 ## Basic demographics
 
@@ -130,15 +130,15 @@ What can we do to lessen income disparities and encourage inclusivity across fie
 
 When it comes to alcohol, queer users were ever so slightly more likely to abstain from drinking than straight users and bi users were a tiny bit more likely than straight or gay users to drink often, very often, or desperately. While most users across the board stated that they drank socially, it's incredibly important to keep in mind that the extent of social drinking is highly subjective. Recently, many people were shocked to find out that [liquor stores were considered essential businesses during the pandemic](https://blogs.scientificamerican.com/observations/yes-liquor-stores-are-essential-businesses/). Addiction experts understood that many people who consumed alcohol socially or to unwind at the end of a long day were more dependent on the substance than they previously believed.
 
-![](https://github.com/lemonmeringuepi/okcupid/blob/master/drinkers.png?raw=true)
+![A stacked bar graph titled, "Percent of Users Who Drink," with the colors brown, yellow, gray, and black to depict the bear pride flag.](https://github.com/lemonmeringuepi/okcupid/blob/master/drinkers.png?raw=true)
 
 While nearly 85% of straight users stated that they either did not smoke or were trying to quit, only about 80% of gay users and 70% of bi users could say the same. In fact, nearly 20% of bi users said they smoked either regularly or when drinking.
 
-![](https://github.com/lemonmeringuepi/okcupid/blob/master/smokers.png?raw=true)
+![A stacked bar graph titled, "Percent of Users Who Smoke," with the colors pink, white, purple, black, and blue to depict the genderfluid pride flag.](https://github.com/lemonmeringuepi/okcupid/blob/master/smokers.png?raw=true)
 
 Drug use was the most dramatically different between bi users and their gay and straight counterparts. Nearly half of bi users said they used drugs, compared to less than 20% of straight and gay users. Bi users were also more than twice as likely as straight or gay users to state they used drugs often.
 
-![](https://github.com/lemonmeringuepi/okcupid/blob/master/drug_users.png?raw=true)
+![A stacked bar graph titled, "Percent of Users Who Use Drugs," with the colors pink, green, and blue to depict the polysexual pride flag.](https://github.com/lemonmeringuepi/okcupid/blob/master/drug_users.png?raw=true)
 
 There are a variety of reasons that queer individuals use substances at higher rates than straight people. In his article, [The LGBTQ Community and Addiction](https://www.addictioncenter.com/addiction/lgbtq/), Jeffrey Juergens states, "Oftentimes, LGBTQ individuals will turn to drugs or alcohol as a way to self-medicate from the prejudice they face in everyday society." We already know that sexual and gender minorities face discrimination that affects our education, career, and income, so it doesn't take mental gymnastics to understand that this bleeds into other facets of queer life. Longer hours worked at a job where we may or may not have the ability to be out, less pay leading to unstable housing in a food desert, harassment online and in person, rejection from family members, and internalized homophobia can all contribute to mental health issues that make self-medicating incredibly attractive. Add onto this  [legal medical discrimination](https://www.vox.com/identities/2020/4/24/21234532/trump-administration-health-care-discriminate-lgbtq) and the high cost of medical care and you have the perfect storm for addiction.
 
@@ -150,7 +150,7 @@ There is hope, though. As addictions awareness rises, more and more LGBT-specifi
 
 The final category that I decided to analyze was body type. Users had the option of categorizing their body type as anything from "used up" to "jacked." Straight users were the most likely to have a positive body image, with nearly 50% describing themselves as "fit," "athletic," or "jacked." Gay users seemed more middle-of-the-road, with half of their users opting for "a little extra," "average," or "thin." Bi users, on the other hand, were the most likely to categorize themselves as "used up, overweight," "full figured," "curvy," or "a little extra."
 
-![](https://github.com/lemonmeringuepi/okcupid/blob/master/body_types.png?raw=true)
+![A stacked bar graph titled, "Body Types." The colors fade from shades of blue to reflect athleticism to white and gray to reflect average body types, to shades of pink to reflect heavier users.](https://github.com/lemonmeringuepi/okcupid/blob/master/body_types.png?raw=true)
 
 These statistics are telling. On the one hand, queer people--especially queer youth-- are at higher risk for disordered eating. According to the National LGBT Health Education Center's [Addressing Eating Disorders, Body Dissatisfaction, and Obesity Among Sexual and Gender Minorities](https://www.lgbtqiahealtheducation.org/wp-content/uploads/2018/04/EatingDisordersBodyImageBrief.pdf), 14-42% of young men with eating disorders are sexual or gender minorities and young queer women are 3-4 times as likely to engage in excessive weight-control behaviors than their straight, cisgender counterparts. On the other hand, decreased activity levels and stress lead to weight gain. Young queer people are, by and large, fighting against their own bodies to try and impose both their own and society's ideals upon them.
 
