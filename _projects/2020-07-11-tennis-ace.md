@@ -9,7 +9,7 @@ featured_image: '/images/projects/2020-07-11-tennis-ace/tennis-players.jpg'
 
 ## Tennis Ace
 
-Let's be real. I don't have a single athletic bone in my body. So, when I was given an open-ended project on [Codecademy](https://www.codecademy.com "Codecademy's Home Page") to analyze a [tennis statistics dataset](https://github.com/lemonmeringuepi/Tennis-Stats/blob/master/tennis_stats.csv) using linear regression, I can safely say that my prior knowledge consisted of:
+Let's be real. I don't have a single athletic bone in my body. So, when I was given an open-ended project on [Codecademy](http://ssqt.co/mQfKjjI "Codecademy's Home Page") to analyze a [tennis statistics dataset](https://github.com/lemonmeringuepi/Tennis-Stats/blob/master/tennis_stats.csv) using linear regression, I can safely say that my prior knowledge consisted of:
 
 * There's a ball and a net.
 * Serena and Venus Williams are famous tennis players.

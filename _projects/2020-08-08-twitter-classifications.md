@@ -9,7 +9,7 @@ featured_image: '/images/projects/2020-08-08-twitter-classification/twitter.jpg'
 
 ## Twitter Classification
 
-After completing the supervised machine learning modules in the [Codecademy](https://www.codecademy.com "Codecademy's Home Page") Data Science track, I went on to tackle the cumulative project: Twitter classification. Unlike my [previous project on tennis statistics](https://lemonmeringuepi.github.io/project/tennis-ace "Tennis Ace"), which used linear regression to predict yearly winnings, this new project used Naive Bayes and K-Nearest Neighbors models to determine the geographical location of the user and the likelihood of a tweet going viral.
+After completing the supervised machine learning modules in the [Codecademy](http://ssqt.co/mQfKjjI "Codecademy's Home Page") Data Science track, I went on to tackle the cumulative project: Twitter classification. Unlike my [previous project on tennis statistics](https://lemonmeringuepi.github.io/project/tennis-ace "Tennis Ace"), which used linear regression to predict yearly winnings, this new project used Naive Bayes and K-Nearest Neighbors models to determine the geographical location of the user and the likelihood of a tweet going viral.
 
 ### A/S/L?
 
