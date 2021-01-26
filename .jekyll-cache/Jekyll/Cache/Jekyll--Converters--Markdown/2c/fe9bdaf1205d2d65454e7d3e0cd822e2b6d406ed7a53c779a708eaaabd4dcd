@@ -1,0 +1,25 @@
+I"	<p><em>You can find the SQL code and query results <a href="https://github.com/lemonmeringuepi/Usage-Funnels-Warby-Parker">here</a>.</em></p>
+
+<h2 id="usage-funnels-and-ab-testing-with-warby-parker">Usage Funnels and A/B Testing with Warby Parker</h2>
+
+<p>It had been a while since I used SQL, so I decided to refresh my memory by retaking the SQL course on <a href="https://codecademy.com">CodeCademy</a>. Thankfully, writing queries is like riding a bike… at least, if I could ride a bike, but that’s neither here nor there.</p>
+
+<p>Anyways, the first project was a simple one: take some fictional data from <a href="https://www.warbyparker.com">Warby Parker</a>’s at home try on A/B testing, create a usage funnel, and analyze the results of the A/B testing. Then, create a presentation about your findings.</p>
+
+<h2 id="prezi">Prezi</h2>
+
+<p>I <em>could</em> have used normal presentation software like PowerPoint, Slides, or Impress. I’m intimately familiar with all three and it would have taken me maybe fifteen minutes. But, honestly? Where is the fun in that? I thought back to my undergrad years, when my Technology in Education professor taught us how to use <a href="https://www.prezi.com">Prezi</a>. Turns out: Prezi is still around and is better than ever!</p>
+
+<p>Back in the late ’00s and early ’10s, Prezi was cool. Users could create a presentation by arranging media of various sizes and shapes on a board, then selecting the order that viewers could zoom in, out, and over that media. Since then, they have built on that capability, <strong>but also</strong> added a bunch of cool stuff:</p>
+
+<ul>
+  <li>Powerful data extensions using programs like PostgreSQL, MySQL, and Oracle.</li>
+  <li>The ability to overlay your presentation over video for videoconferencing.</li>
+  <li>The ability to record videos of you giving your presentation.</li>
+  <li>The ability to make interactive infographics.</li>
+</ul>
+
+<p>For this project, I elected to make an interactive infographic of my data, but I’m incredibly stoked to play around with all of Prezi’s data analysis and visualization tools in future projects!</p>
+
+<p><code><script async="" src="https://e.prezicdn.net/v1/design.js"></script>&lt;div class="prezi-design-embed" data-project-id="mvfks6qpphog"&gt;&lt;/div&gt;</code></p>
+:ET
