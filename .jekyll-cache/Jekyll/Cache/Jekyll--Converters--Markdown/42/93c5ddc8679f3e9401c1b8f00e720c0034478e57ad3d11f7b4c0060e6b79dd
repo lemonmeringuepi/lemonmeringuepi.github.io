@@ -1,0 +1,19 @@
+I"q<p><em>You can find the SQL code and query results <a href="https://github.com/lemonmeringuepi/churn-rate-codeflix">here</a>.</em></p>
+
+<h2 id="churn-rate-with-codeflix">Churn Rate with Codeflix</h2>
+
+<p>This project was a simple one for a common question: calculate the churn rate of subscribers to a service over time. Churn rate is the rate at which existing subscribers cancel their subscription. For example, if Netflix had 100,000 subscribers in January, then 10,000 canceled their subscription, the churn rate would be</p>
+
+<p>10,000 / 100,000 = 10%</p>
+
+<p>This is helpful for following membership trends, especially– as we can see in the resulting project– when comparing one test group against another.</p>
+
+<p>The data I used was from <a href="https://codeflix.com.au">Codeflix</a>, a streaming service that provides educational STEM videos. It included user ids, their subscription start date, subscription end dates, and a test segment number. The dataframe covered a time period from December, 2016 through March, 2017. Using SQL, I calculated the monthly churn rate for the two segments. As the report shows, segment 30 performed significantly better than segment 87, but something occurred in March that increased churn rate in both segments.</p>
+
+<p>Like with my previous project, I elected to complete my report using <a href="https://www.prezi.com">Prezi</a>.</p>
+
+<script async="" src="https://e.prezicdn.net/v1/design.js"></script>
+<div class="prezi-design-embed" data-project-id="0ishad6cuwkm"></div>
+
+<p><em>If the infographic does not show above, try refreshing the page– or just giving it a minute to render.</em></p>
+:ET

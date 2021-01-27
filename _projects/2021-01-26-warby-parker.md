@@ -27,3 +27,5 @@ Back in the late '00s and early '10s, Prezi was cool. Users could create a prese
 For this project, I elected to make an interactive infographic of my data, but I'm incredibly stoked to play around with all of Prezi's data analysis and visualization tools in future projects!
 
 <script async src="https://e.prezicdn.net/v1/design.js"></script><div class="prezi-design-embed" data-project-id="mvfks6qpphog"></div>
+
+*If the infographic does not show above, try refreshing the page– or just giving it a minute to render.*
