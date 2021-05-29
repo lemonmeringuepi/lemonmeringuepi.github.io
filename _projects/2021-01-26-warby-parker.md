@@ -28,8 +28,4 @@ For this project, I elected to make an interactive infographic of my data, but I
 
 <script async src="https://e.prezicdn.net/v1/design.js"></script><div class="prezi-design-embed" data-project-id="mvfks6qpphog"></div>
 
-<<<<<<< HEAD
 *If the infographic does not show above, try refreshing the page– or just giving it a minute to render.*
-=======
-If the infographic does not show above, try refreshing the page-- or just giving it a minute to render.
->>>>>>> 5ecc3192d25d939ad29d037882a0ee46d28d198c
