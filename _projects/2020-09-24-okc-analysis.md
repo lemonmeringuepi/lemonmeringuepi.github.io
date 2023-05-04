@@ -148,7 +148,7 @@ There is hope, though. As addictions awareness rises, more and more LGBT-specifi
 
 ### Body Type
 
-The final category that I decided to analyze was body type. Users had the option of categorizing their body type as anything from "used up" to "jacked." Straight users were the most likely to have a positive body image, with nearly 50% describing themselves as "fit," "athletic," or "jacked." Gay users seemed more middle-of-the-road, with half of their users opting for "a little extra," "average," or "thin." Bi users, on the other hand, were the most likely to categorize themselves as "used up, overweight," "full figured," "curvy," or "a little extra."
+The final category that I decided to analyze was body type. Users had the option of categorizing their body type as anything from "used up" to "jacked." Straight users were the most likely to have a positive body image, with nearly 50% describing themselves as "fit," "athletic," or "jacked." Gay users seemed more middle-of-the-road, with half of their users opting for "a little extra," "average," or "thin." Bi users, on the other hand, were the most likely to categorize themselves as "used up," "overweight," "full figured," "curvy," or "a little extra."
 
 ![A stacked bar graph titled, "Body Types." The colors fade from shades of blue to reflect athleticism to white and gray to reflect average body types, to shades of pink to reflect heavier users.](https://github.com/lemonmeringuepi/okcupid/blob/master/body_types.png?raw=true)
 
